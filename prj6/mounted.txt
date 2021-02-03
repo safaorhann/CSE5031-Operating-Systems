@@ -1,0 +1,9 @@
+device     fs_type label    mount point    UUID
+-------------------------------------------------------------------------------
+/dev/sda1  xfs              /boot          dd37630e-249f-46ed-a1fe-b01428c0978b
+/dev/sda2  swap             <swap>         80e3544f-c1ef-421b-ae6e-14d321bea13e
+/dev/sda3  xfs              /              199e891c-15a5-4f7f-b64f-24b8ca8fa6c0
+/dev/sdb1  ext4             /mnt/vdb1      6236e473-58c3-420a-8e09-73f53eabd10b
+/dev/sdb2  ext4             /mnt/vdb2      9be19d8d-1261-49e2-b168-674610aa0956
+
+

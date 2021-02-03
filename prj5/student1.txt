@@ -1,0 +1,14 @@
+teaching assistant thread(1496372992) started
+teaching assistant opened office, waiting for a student
+student 1 thread(1487980288) started, going to the lab...
+student 1 is starting programmig
+student 1 is checking the ta office
+student 1 took a chair
+student 1 waking up the teaching assistant
+teaching assistant started session
+student 1 getting advice from the teaching assistant
+student 1 has no more questions, leaving ta's office
+student 1> signing off... active students: 0
+teaching assistant done with advising, nap time
+ta> no more active students, terminating...
+main> terminating

@@ -1,0 +1,2 @@
+home directory: /home/sysadmin
+login shell: /bin/bash

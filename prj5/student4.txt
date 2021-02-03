@@ -1,0 +1,89 @@
+student 1 thread(3284252416) started, going to the lab...
+student 1 is starting programmig
+student 2 thread(3275859712) started, going to the lab...
+student 2 is starting programmig
+teaching assistant thread(3309430528) started
+teaching assistant opened office, waiting for a student
+student 3 thread(3301037824) started, going to the lab...
+student 3 is starting programmig
+student 4 thread(3292645120) started, going to the lab...
+student 4 is starting programmig
+student 1 is checking the ta office
+student 1 took a chair
+student 1 waking up the teaching assistant
+student 2 is checking the ta office
+student 2 took a chair
+student 2 waiting for other student to get advice
+student 3 is checking the ta office
+student 3> chairs in ta's office occupied, coffee break
+student 4 is checking the ta office
+student 4> chairs in ta's office occupied, coffee break
+teaching assistant started session
+student 1 getting advice from the teaching assistant
+student 3 returnin the lab to resume programmig
+student 3 is starting programmig
+student 4 returnin the lab to resume programmig
+student 4 is starting programmig
+student 1 has no more questions, leaving ta's office
+student 1 is starting programmig
+teaching assistant done with advising, nap time
+student 2 waking up the teaching assistant
+teaching assistant started session
+student 2 getting advice from the teaching assistant
+student 2 has no more questions, leaving ta's office
+student 2 is starting programmig
+teaching assistant done with advising, nap time
+student 3 is checking the ta office
+student 3 took a chair
+student 3 waking up the teaching assistant
+student 4 is checking the ta office
+student 4 took a chair
+student 4 waiting for other student to get advice
+student 4 waking up the teaching assistant
+teaching assistant started session
+student 3 getting advice from the teaching assistant
+student 1 is checking the ta office
+student 1> chairs in ta's office occupied, coffee break
+student 1 returnin the lab to resume programmig
+student 1 is starting programmig
+student 3 has no more questions, leaving ta's office
+student 3 is starting programmig
+teaching assistant done with advising, nap time
+teaching assistant started session
+student 4 getting advice from the teaching assistant
+student 2 is checking the ta office
+student 2 took a chair
+student 2 waiting for other student to get advice
+student 2 waking up the teaching assistant
+student 4 has no more questions, leaving ta's office
+student 4 is starting programmig
+teaching assistant done with advising, nap time
+teaching assistant started session
+student 2 getting advice from the teaching assistant
+student 1 is checking the ta office
+student 1 took a chair
+student 1 waiting for other student to get advice
+student 1 waking up the teaching assistant
+student 3 is checking the ta office
+student 3> chairs in ta's office occupied, coffee break
+student 2 has no more questions, leaving ta's office
+student 2> signing off... active students: 3
+teaching assistant done with advising, nap time
+student 3 returnin the lab to resume programmig
+student 3> signing off... active students: 2
+teaching assistant started session
+student 1 getting advice from the teaching assistant
+student 4 is checking the ta office
+student 4 took a chair
+student 4 waiting for other student to get advice
+student 4 waking up the teaching assistant
+student 1 has no more questions, leaving ta's office
+student 1> signing off... active students: 1
+teaching assistant done with advising, nap time
+teaching assistant started session
+student 4 getting advice from the teaching assistant
+student 4 has no more questions, leaving ta's office
+student 4> signing off... active students: 0
+teaching assistant done with advising, nap time
+ta> no more active students, terminating...
+main> terminating

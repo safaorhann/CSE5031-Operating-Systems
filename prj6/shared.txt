@@ -1,0 +1,24 @@
+total 15
+       2 drwx---rwx. 4 root     root   1024 Jan  7 13:15 .
+12583010 drwxr-xr-x. 4 root     root     30 Jan  7 13:12 ..
+      11 drwx------. 2 root     root  12288 Jan  7 13:09 lost+found
+      12 drwxr-xr-x. 2 sysadmin wheel  1024 Jan  7 13:15 work
+total 7
+12 drwxr-xr-x. 2 sysadmin wheel 1024 Jan  7 13:15 .
+ 2 drwx---rwx. 4 root     root  1024 Jan  7 13:15 ..
+13 -rw-r--r--. 1 sysadmin wheel 2297 Jan  7 13:15 pw
+
+
+Brief:
+A link count shows how many directory entries link to the file. There are two types of links which are symbolic link and
+hard link. Hard link refers to specific location of physical data. Symbolic link refers to a symbolic path indicating the
+absract location of another file. We can see the link count in the second column of ls -ali command. This count number tells 
+the total number of links a file has. This count, however does not include the soft-link count.
+The soft-link is not part of the link count since the soft-link's inode number is different from the original file but the
+hard link does. 
+In our case '.' refer to the current directory and '..' refers to the parent directory. The link count of the 'vdb1' directory
+is 4 which we can see it in the row that contains '.'. This is because vdb1 directory contains another directory in it which
+is 'work' directory and when we create a directory in a directory, it adds 2 to the link count. Also, the reason that 'work' directory
+has a link count of 2 is because it does not contain any hard link, apart from the hard link to its parent which is '..', or a directory 
+but a soft link in it. Since the soft link does notincrement the link count, it stays 2 as it is created.
+For the file pw, it contains a soft link which has nothing to do with the link count and because of this the link count of pw is 1.
